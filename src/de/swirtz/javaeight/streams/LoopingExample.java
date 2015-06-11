@@ -1,4 +1,4 @@
-package de.swirtz.lambda;
+package de.swirtz.javaeight.streams;
 
 import java.util.Arrays;
 import java.util.List;

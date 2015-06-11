@@ -1,4 +1,4 @@
-package de.swirtz.lambda.streams;
+package de.swirtz.javaeight.streams;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,7 +6,6 @@ import java.util.IntSummaryStatistics;
 import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 /**
