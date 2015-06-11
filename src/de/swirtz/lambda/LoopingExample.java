@@ -10,10 +10,9 @@ import java.util.List;
 public class LoopingExample {
 
     public static void main(String[] args) {
-        List<String> strings = Arrays.asList("A", "B", "C", "D");
+        List<String> strings = Arrays.asList("Albert", "Berthold", "Claus", "Dieter");
 
-        //TODO IntelliJ suggestion
-        strings.forEach(s-> System.out.println(s));
+        strings.parallelStream().peek(System.out::println).mapToInt(String::length).forEach(System.out::println);
 
     }
 
